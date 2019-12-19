@@ -114,7 +114,7 @@ namespace Services
             foreach (var detail in model.Detail)
             {
                 detail.Total = detail.Quantity * detail.Price;
-                detail.Iva = detail.Total * Parameters.IvaRate;
+                detail.Iva = detail.Total / (1 + Parameters.IvaRate);
                 detail.SubTotal = detail.Total - detail.Iva;
             }
 

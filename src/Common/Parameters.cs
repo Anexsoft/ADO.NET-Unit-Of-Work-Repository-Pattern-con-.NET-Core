@@ -2,9 +2,7 @@
 {
     public class Parameters
     {
-        //public const string ConnectionString = "Server=LALO-PC\\SQLEXPRESS;Initial Catalog=KodotiSells;Integrated Security=true;";
-        public const string ConnectionString = "Server=LALO-PC\\SQLEXPRESS;Initial Catalog=KodotiSells;User Id=sa;Password=123456;";
-
+        public const string ConnectionString = "Server=DESKTOP-M9KD390\\SQLEXPRESS;Initial Catalog=KodotiSells;Integrated Security=true;";
         public const decimal IvaRate = 0.18m;
     }
 }
